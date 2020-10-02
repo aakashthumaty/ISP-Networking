@@ -1,0 +1,18 @@
+start the server:
+
+java TCPServer 1234
+
+start the client:
+
+java TCPClient 1234 < test_in
+
+you should see the output on the client side:
+Client ready for input
+THIS IS A TEST
+THIS IS A TEST
+HERE IS ANOTHER LINE
+HERE IS ANOTHER LINE
+AND THE LINE AFTER THAT
+AND THE LINE AFTER THAT
+THAT'S ALL FOLKS!
+THAT'S ALL FOLKS!
